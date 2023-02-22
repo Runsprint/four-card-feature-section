@@ -38,8 +38,9 @@ main{
     display: flex;
     flex-direction: column;
     gap: 25px;
+    width: 375px;
 }
-div{
+.first, .second, .third, .fourth{
     display: flex;
     flex-direction: column;
     background-color:#FFFFFF;
@@ -106,6 +107,34 @@ footer{
     }
    main{
     height: 922px;
-    display: grid;
+    flex-direction: row;
+    width: 1440px;
+    justify-content: center;
    }
-}
+   .second{
+    position: relative;
+    bottom: 332px;
+    left: 184px;
+   }
+   .third{
+    position: relative;
+    right: 184px;
+    bottom: 40px;
+   }
+   .first{
+    position: relative;
+    bottom: 186px;
+    left: 200px;
+   }
+   .fourth{   
+    position: relative;
+    bottom: 186px;
+    right: 200px;
+
+   }
+   .forcenter{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+   }
+   }
